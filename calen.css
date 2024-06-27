@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(100deg,pink,rgb(58, 202, 210));
+}
+.calendar{
+width: 400px;
+height: 250px;
+background: white;
+display: flex;
+align-items: center;
+border-radius: 10px;
+}
+.left,.right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    flex-direction: column;
+}
+
+.right{
+    width: 42%;
+background: rgb(203, 80, 38);
+color: aliceblue;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.left{
+    width: 58%;
+    
+}#date{
+font-size: 100px;
+line-height: 90px;
+
+}
